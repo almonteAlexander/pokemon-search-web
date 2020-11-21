@@ -1,0 +1,29 @@
+.types-list__container{
+    position: relative;
+    max-height: 500px;
+    width: 300px;
+    margin-top: 1.5em;
+    border: 3px solid black;
+    background: #202020;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.types-list__header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%;
+    background: #202020;
+    border-bottom: 3px solid white;
+    z-index: 100;
+}
+.types__close-button{
+    height: 100%;
+    width: 30px !important;
+    border-radius: 0 !important;
+    background: #DF4848 !important;
+}

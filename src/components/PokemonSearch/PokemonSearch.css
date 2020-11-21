@@ -1,0 +1,5 @@
+.pokemon__search-container{
+    display: flex;
+    justify-content: center;   
+    width: 100%;
+}

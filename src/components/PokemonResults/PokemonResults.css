@@ -1,0 +1,23 @@
+.results__container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2em auto;
+    align-items: center;
+    justify-content: center;
+}
+.results__controller{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.results__prev-button, .results__next-button{
+    background: #202020 !important;
+    color: white !important;
+    width: 25% !important;
+    max-width: 160px !important;
+    margin: 0 1em !important;
+}
+.results__prev-button:hover, .results__next-button:hover{
+    transform: scale(1.05);
+}

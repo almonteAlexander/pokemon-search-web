@@ -1,0 +1,26 @@
+.stat__container{
+    position: relative;
+    display: flex;
+    height: .7em;
+    width: 80%;
+    color: white;
+    margin: 0.4em 0;
+    align-items: center;
+}
+.stat__name{
+    width: 20%;
+    color: black;
+    margin-right: 2em;
+}
+.stat__value-container{
+    display: flex;
+    height: 100%;
+    max-width: 80%;
+    border-radius: 30px;
+    background: #3D7DCA;
+    align-items: center;
+    justify-content: center;
+}
+.stat__value{
+    font-size: 10px;
+}

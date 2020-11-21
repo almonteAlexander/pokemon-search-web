@@ -1,0 +1,16 @@
+.type-list__element{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    height: 50px;
+    width: 100%;
+    border-radius: 0 !important;
+    cursor: pointer;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: white;
+}
+.type-list__element:hover{
+    transform: scale(1.1);
+}

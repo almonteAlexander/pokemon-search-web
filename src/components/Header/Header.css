@@ -1,0 +1,25 @@
+.header{
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    border-bottom: 3px solid #202020;
+    background: var(--main-color);
+    z-index: 1000;
+}
+.home__button{
+    font-weight: bold !important;
+    background: #202020 !important;
+    color: white !important;
+    border-radius: 30px !important;
+    margin-right: 1em !important;
+    width: 110px !important;
+}
+.home__button:hover{
+    transform: scale(1.05);
+}

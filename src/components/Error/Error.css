@@ -1,0 +1,19 @@
+.error__container{
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 350px;
+    margin: 20px auto;
+    align-items: center;
+}
+.error__back-button{
+    background: #202020 !important;
+    font-weight: bold !important;
+    color: white !important;
+    width: 200px !important;
+    margin-top: 1em !important;
+    background: #56A64E !important;
+}
+.error__back-button:hover{
+    transform: scale(1.05);
+}
